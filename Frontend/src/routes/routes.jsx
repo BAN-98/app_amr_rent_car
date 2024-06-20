@@ -9,7 +9,7 @@ const MyRouter = () => {
         <AuthProvider>
             <Router>
                 <Routes>
-                    <Route  path='/login' element={<Login />} />
+                    <Route index  element={<Login />} />
                     <Route  path='/register' element={<Register />} />
                     <Route  path='/dashboard' element={<Dashboard />} />
                     <Route  path='/profile' element={<h1>Profile</h1>} />

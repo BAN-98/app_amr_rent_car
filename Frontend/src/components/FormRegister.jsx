@@ -21,7 +21,7 @@ export const FormRegister = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (isAuth) navigate("/login");
+    if (isAuth) navigate("/");
   }, [isAuth, navigate]);
 
   const onSubmit = async (values) => {
@@ -171,7 +171,7 @@ export const FormRegister = () => {
           Ya tienes una <b>Cuenta ? </b>
         </p>
           <Link
-            to="/login"
+            to="/"
             className="w-11/12 text-center rounded-lg bg-green-600 p-3 font-bold text-white sm:text-sm hover:bg-green-500 hover:scale-105 duration-300 uppercase"
           >
            Inicia sesion
