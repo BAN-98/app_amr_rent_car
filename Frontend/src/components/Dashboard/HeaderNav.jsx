@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 const HeaderNav = () => {
   return (
     <nav className="bg-white p-2 backdrop-blur-lg border-b border-neutral-200">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className=" mx-auto flex items-center justify-between">
         <Link to="/" className="text-white text-lg ">
           <img
             src={Logo}
