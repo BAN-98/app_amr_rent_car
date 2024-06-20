@@ -8,7 +8,6 @@ import { LocationIcon } from "../icons/LocationIcon";
 import { useAuth } from "../context/AuthContext";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import React from "react";
 
 export const FormRegister = () => {
   const {

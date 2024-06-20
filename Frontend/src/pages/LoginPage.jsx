@@ -39,7 +39,7 @@ export class Login extends React.Component {
                   <p>No tienes una cuenta ?</p>
                 </div>
                 <div className="flex w-full justify-center">
-                  <Link className="bg-green-800 p-2 w-1/5 text-center rounded text-white uppercase hover:bg-green-500 hover:scale-105 duration-500" to="/register">
+                  <Link className="bg-green-800 p-2 w-1/5 text-center rounded text-white uppercase hover:bg-green-500 hover:scale-105 duration-500" to="/signup">
                     Registrate
                   </Link>
                 </div>

@@ -9,7 +9,7 @@ const Banner = () => {
       ></img>
       <div className=" absolute flex flex-col container ">
         <h2 className="font-bold text-5xl text-white text-center">
-          Busca. Compara. Alquila
+          Busca, compra y alquila
         </h2>
         <h1 className="font-normal text-3xl text-white text-center mt-8 mb-16">
           Alquiler de coches a los mejores precios
@@ -26,7 +26,7 @@ const Banner = () => {
                 <input className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"></input>
               </div>
               <div className="flex flex-col gap-6">
-                <label>Fecha y hora de devolucion:</label>
+                <label>Fecha y hora devolucion:</label>
                 <input className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"></input>
               </div>
               <div className="flex flex-col gap-6">
